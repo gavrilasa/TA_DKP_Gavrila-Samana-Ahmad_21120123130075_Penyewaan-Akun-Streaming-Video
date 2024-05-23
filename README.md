@@ -1,1 +1,5 @@
-# TA_DKP_Gavrila-Samana-Ahmad_21120123130075_Penyewaan-Akun-Streaming-Video
+# Penyewaan Akun Streaming Vide
+## Tugas Akhir Praktikum Dasar Komputer dan Pemrograman
+
+Nama : Gavrila Samana Ahmad
+NIM  : 21120123130075
