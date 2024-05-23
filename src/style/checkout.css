@@ -1,0 +1,124 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #141412;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.input-area {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text-area > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.duration-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.duration-option {
+    align-items: flex-end;
+    padding: 16px;
+    width: 48%;
+    height: 100px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    background-color: #e5e5e5;
+}
+
+.duration-option span{
+    padding-left: 8px;
+    font-size: 14px;
+    margin-top: 8px
+}
+
+.duration-option p{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button {
+    margin-top: 16px;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border : none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.phone-number {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.phone-number input {
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #e5e5e5;
+}
+
+.phone-number p {
+    margin-top: -4px;
+    margin-left: 4px;
+    font-style: italic;
+    opacity: 60%;
+    font-size: 12px;;
+}
